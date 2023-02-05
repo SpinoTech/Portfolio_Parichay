@@ -196,6 +196,9 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
     .subject{
         height: 10rem;
     }
+    .subject p{
+        margin: 1rem;
+    }
 }
 
 /* for making responsive leetcode part css  */
@@ -231,6 +234,15 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
 
 @media screen and (max-width:650px) 
 {
+    #skill{
+        padding: 1rem;
+    }
+    .skillContainer{
+        width: 20rem;
+    }
+    .leetcode{
+        width: 60%;
+    }
     .leetimage{
         height: 1.5rem;
         width: 1.5rem;
@@ -242,4 +254,10 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
     .leetcode p{
         font-size: 0.6rem;
     } 
+    .subject{
+        height: 7rem;
+    }
+    .subject p{
+        margin: 0;
+    }
 }

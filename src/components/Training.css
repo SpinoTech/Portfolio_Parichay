@@ -44,3 +44,14 @@
     background-color: rgba(213, 24, 24, 0.184);
     cursor: pointer;
 }
+@media screen and (max-width:500px) {
+    .training_container h3{
+        font-size: 1rem;
+    }
+    .training_container p{
+        font-size: 0.6rem;
+    }
+    .training_container button{
+        width: 3rem;
+    }
+}

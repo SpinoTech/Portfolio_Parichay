@@ -44,6 +44,9 @@
     flex-direction: row;
     justify-content: center;
 }
+.social a{
+    font-size: 2.5rem;
+}
 
 @media screen  and (max-width:1300px){
     .footer{
@@ -70,7 +73,7 @@
         /* display: flex; */
     }
 }
-@media screen and (max-width:660px){ 
+@media screen and (max-width:800px){ 
     .footer-container{
         font-size: 0.8rem;
     }
@@ -81,4 +84,11 @@
    .left{
     margin-right: 0.4rem;
    }
+}
+@media screen and (max-width:500px)
+{
+    .social a{
+        padding:1rem 0;
+        font-size: 1.7rem;
+    }
 }
