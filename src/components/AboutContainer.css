@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+#About_page {
+    margin: 0;
+    padding: 0;
+    /* box-shadow: inset 0 0 20px #04a4b69b; */
+    padding: 3rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    border-radius: 2rem;
+    transition: 0.6s;
+}
+.bgvdo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#About_page:hover {
+    background-color: rgba(14, 233, 244, 0.063);
+}
+
+.About_container {
+    margin: 2px;
+    box-shadow: inset 0 0 20px #04a4b69b;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: 0.6s;
+}
+
+.About_container:hover {
+    background-color: rgba(32, 205, 218, 0.071);
+}
+
+.about_image {
+    border-radius: 40px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.about_image img {
+
+    height: 45vh;
+    width: 100%;
+    border: 2px solid rgba(52, 242, 232, 0.673);
+    border-radius: 40px;
+    box-shadow: 0 3px 30px rgba(22, 215, 225, 0.429);
+}
+
+.about_image img:hover {
+    box-shadow: 0 5px 50px rgba(22, 215, 225, 0.429);
+}
+
+.about_content {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-family: 'Yeseva One', cursive;
+}
+
+.about_content h2 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem;
+    color: #47171cd9;
+}
+
+.about_content p {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    color: #c6f993;
+}
+
+/* education part is here */
+.education {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    font-family: 'Playball', cursive;
+    /* border: 2px solid red; */
+}
+
+.education h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 3px 5px rgba(110, 243, 214, 0.337);
+    color: #84262fef;
+}
+
+.digree {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.digree h2 {
+    font-size: 2rem;
+    text-shadow: 2px 3px 5px rgba(110, 243, 214, 0.337);
+    color: #a11422ef;
+}
+
+.digree p {
+    font-size: 1.6rem;
+    margin: 0.3rem;
+}
+
+.degpass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.marks,
+.degpass p {
+    text-shadow: 2px 2px 4px #1beec4;
+}
+
+/* education part end here */
+@media screen and (max-width:900px) {
+    .About_container h2 {
+        font-size: 3rem;
+    }
+
+    .about_content p {
+        font-size: 1rem;
+    }
+    .education h1{
+        font-size: 2rem;
+    }
+    .digree h2 {
+        font-size: 1.5rem;
+    }
+    .digree p {
+        font-size: 1rem;
+    }
+    .degpass {
+        margin-bottom: 0.4rem;
+    }
+}
+
+@media screen and (max-width :600px) {
+    .About_container {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .about_content {
+        width: 100%;
+    }
+
+    .about_content h2{
+        font-size: 2rem;
+    }
+    .about_image {
+        /* padding: 1rem; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .digree {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}

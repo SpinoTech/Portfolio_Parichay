@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Rubik+Microbe&family=Ubuntu:ital,wght@1,400;1,500&display=swap');
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    /* height: ; */
+    width: 100%;
+    z-index: 10;
+}
+.header-scroll{
+    background-color: rgba(24, 1, 1, 0.386);
+    transition: 0.5s;
+}
+.header h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+.header h2:hover{
+    text-shadow: 2px 2px 3px rgb(87, 193, 186);
+}
+.navlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+.navlinks li {
+    padding: 0rem 1rem;
+}
+
+.navlinks li a {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navlinks li:hover {
+    text-shadow: 2px 2px 3px red;
+}
+
+.hamburger_manu{
+    display: none;
+}
+
+@media screen and (max-width:1040px) {
+    .navlinks {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        /* color: #4FD1C5; */
+        background-color: rgba(6, 58, 51, 0.948);
+        position: absolute;
+        top: 0;
+        left: -100%;
+        z-index: -3;
+        transition: 0.5s ease-in;
+    }
+    
+    .navlinks.active{
+     left: 0;
+    }
+
+    .navlinks li{
+        padding:1rem 0 ;
+    }
+    .navlinks li a{
+        font-size: 2rem;
+    }
+    .hamburger_manu{
+        display: block;
+    }
+}

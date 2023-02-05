@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+*{
+    margin: 0;
+    color: wheat;
+    box-sizing: border-box;
+}
+#skill{
+    /* border: 2px solid red; */
+    box-shadow: inset 0 0 20px #04a4b69b;
+    background-color: rgba(25, 246, 220, 0.052);
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 2rem;
+    padding: 1rem;
+    transition: 0.6s;
+    font-family: 'Orbitron', sans-serif;
+}
+#skill:hover{
+    background-color: rgba(240, 245, 92, 0.042);
+}
+#skillHeading{
+    text-shadow: 2px 2px 3px red;
+    font-size: 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+.skillBody{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    border-radius: 2rem;
+}
+.skillContainer{
+    margin: 1rem;
+    height: 25rem;
+    width: 25rem;
+    border: 2px solid blue;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5rem;
+    box-shadow: inset 0 0 25px #04a4b69b;
+}
+.skillContainer:hover{
+    background-color: rgba(47, 251, 255, 0.067);
+}
+.circular_progress{
+    position: relative;
+    border: 2px solid pink;
+    border-radius: 50%;
+    height: 12rem;
+    width:12rem;
+    background: conic-gradient(red 1.5deg, transparent 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* for arround shadow */
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 5px 15px rgb(97 244 241 / 16%);
+
+
+}
+.circular_progress::before{
+    content: "";
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.progress_val{
+    position: relative;
+    font-size: 2rem;
+}
+.skill_set{
+    font-size: 1.3rem;
+}
+
+/* subject css part  */
+.subject{
+margin: 1rem;
+padding: 0.5rem;
+border: 2px solid pink;
+border-radius: 3rem;
+height: 13rem;
+box-shadow: inset 0 0 30px #7cf4ff9a;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+/* transition: 0.7s; */
+}
+.subject h2{
+    text-shadow: 2px 2px 3px red;
+    font-size: 2rem;
+    margin: 1rem;
+}
+.hedsubject{
+    font-size: 2rem;
+}
+.subjects{
+ font-size: 1.5rem;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ margin: 0.3rem;
+ height: 30%;
+}
+.subjects p{
+/* border: 2px solid blue; */
+margin: 0.3rem;
+padding: 1rem;
+border-radius: 3rem;
+
+}
+.subject p:hover{
+    background-color: rgba(97, 244, 242, 0.082);
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
+}
+
+/* coding part css is here  */
+#leetbody{
+    margin:1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.leetcode{
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    /* border: 2px solid red; */
+    background-color: #6cf5fc0a;
+    border-radius: 2rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /* outsider body shadow code  */
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
+}
+.leetimage{
+    height: 5rem;
+    width: 5rem;
+}
+.leetcode h2{
+    padding: 1rem;
+    font-size: 4rem;
+}
+.leetcode p{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:1200px) {
+   
+    .skillBody{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .subject{
+        flex-direction: column;
+        height: 8rem;
+    }
+    .subject h2{
+        font-size: 1rem;
+    }
+    .subjects{
+        font-size: 0.8rem;
+    }
+    .subjects p{
+        text-align: center;
+        margin: 1rem;
+        padding: 0.3rem;
+    }
+}
+
+@media screen and (max-width:750px) 
+{
+    .subjects{
+        font-size: 0.6rem;
+    } 
+    .subject{
+        height: 10rem;
+    }
+}
+
+/* for making responsive leetcode part css  */
+@media screen and (max-width:1200px) 
+{
+    .leetimage{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .leetcode h2{
+        padding: 1rem;
+        font-size: 3rem;
+    }
+    .leetcode p{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:900px) 
+{
+    .leetimage{
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .leetcode h2{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .leetcode p{
+        font-size: 1rem;
+    } 
+}
+
+@media screen and (max-width:650px) 
+{
+    .leetimage{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+    .leetcode h2{
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .leetcode p{
+        font-size: 0.6rem;
+    } 
+}
