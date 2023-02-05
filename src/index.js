@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import {  
-  BrowserRouter as Router,  
+  HashRouter as Router,  
   // Routes,  
   // Route,  
   // Link  
