@@ -1,26 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_Parichay/static/css/main.2f428da7.css",
-    "main.js": "/Portfolio_Parichay/static/js/main.5c940f1d.js",
+    "main.css": "/Portfolio_Parichay/static/css/main.f836b2f0.css",
+    "main.js": "/Portfolio_Parichay/static/js/main.edb3884d.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js",
-    "static/media/profile1.jpg": "/Portfolio_Parichay/static/media/profile1.1633fb2025c65c2d3e65.jpg",
-    "static/media/bgVdo.mp4": "/Portfolio_Parichay/static/media/bgVdo.1a91cb3b32a539842dba.mp4",
-    "static/media/text_img.jpg": "/Portfolio_Parichay/static/media/text_img.2c212f2bcae5bde5f0c2.jpg",
-    "static/media/qr_img.jpg": "/Portfolio_Parichay/static/media/qr_img.8ec76d3ca2f33a61e5d4.jpg",
     "static/media/Black.mp4": "/Portfolio_Parichay/static/media/Black.9a865259a3da0fe4de17.mp4",
-    "static/media/clock.jpg": "/Portfolio_Parichay/static/media/clock.9ee9bea6e74366fa53f9.jpg",
-    "static/media/clg_game_img.jpg": "/Portfolio_Parichay/static/media/clg_game_img.b89e404f2547f3b5e52e.jpg",
-    "static/media/food_delevery.jpg": "/Portfolio_Parichay/static/media/food_delevery.c2b00d00aff9b3ed90b3.jpg",
-    "static/media/tic_tac_toe.png": "/Portfolio_Parichay/static/media/tic_tac_toe.87711b7842489abfe184.png",
     "static/media/background image home.jpg": "/Portfolio_Parichay/static/media/background image home.bc8608a55000512f58cc.jpg",
-    "static/media/leetcode.png": "/Portfolio_Parichay/static/media/leetcode.7e80f19dc3200739ff20.png",
     "index.html": "/Portfolio_Parichay/index.html",
-    "main.2f428da7.css.map": "/Portfolio_Parichay/static/css/main.2f428da7.css.map",
-    "main.5c940f1d.js.map": "/Portfolio_Parichay/static/js/main.5c940f1d.js.map",
+    "main.f836b2f0.css.map": "/Portfolio_Parichay/static/css/main.f836b2f0.css.map",
+    "main.edb3884d.js.map": "/Portfolio_Parichay/static/js/main.edb3884d.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f428da7.css",
-    "static/js/main.5c940f1d.js"
+    "static/css/main.f836b2f0.css",
+    "static/js/main.edb3884d.js"
   ]
 }
