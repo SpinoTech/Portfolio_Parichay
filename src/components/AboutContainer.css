@@ -71,11 +71,11 @@
 }
 
 .about_content h2 {
-    color: white;
     font-size: 4rem;
     text-align: center;
     margin: 1rem;
     color: #47171cd9;
+    animation: bipp_lighting 5s infinite;
 }
 
 .about_content p {
@@ -183,3 +183,31 @@
         margin-bottom: 1rem;
     }
 }
+
+@keyframes bipp_lighting{
+    0%{
+      color: black;
+    }
+    2%{
+      color: white;
+    }
+    10%{
+      color: black;
+    }
+    12%{
+      color: white;
+    }
+    70%{
+      color: black;
+    }
+    72%{
+      color: white;
+    }
+    90%{
+      color: black;
+    }
+    92%{
+      color: white;
+    }
+  
+  }

@@ -44,16 +44,15 @@
     font-family: 'Orbitron', sans-serif;
     text-align: center;
     white-space:pre-wrap;
-}
-
-.content h1:hover{
     text-shadow: 2px 2px 3px red;
+    animation: bipp_lighting 5s infinite;
 }
 .content p{
     margin: 1rem;
     padding: 0.5rem 0 2rem;
     font-size: 2.5rem;
     font-family: 'Moon Dance', cursive;
+    animation: bipp_lighting 5s infinite;
 }
 .content p:hover{
     text-shadow: 2px 2px 3px #ebfc7a;
@@ -93,4 +92,32 @@
     .tog_btn{
         margin-top: 2rem;
     }
+}
+
+@keyframes bipp_lighting{
+  0%{
+    color: black;
+  }
+  2%{
+    color: white;
+  }
+  10%{
+    color: black;
+  }
+  12%{
+    color: white;
+  }
+  70%{
+    color: black;
+  }
+  72%{
+    color: white;
+  }
+  90%{
+    color: black;
+  }
+  92%{
+    color: white;
+  }
+
 }

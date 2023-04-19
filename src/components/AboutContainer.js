@@ -1,7 +1,6 @@
 import "./AboutContainer.css";
 import React from 'react'
 import bgVdo from '../images_folder/Black.mp4';
-import profile1 from "../images_folder/profile1.jpg";
 
 export default function AboutContainer() {
   return (
@@ -9,7 +8,7 @@ export default function AboutContainer() {
       <video src={bgVdo} autoPlay muted loop className="bgvdo"></video>
       <div className="About_container">
          <div className="about_image">
-            <a href="https://www.instagram.com/parichay_haldar/" target='_blank' rel="noreferrer"> <img src={profile1} alt="" /></a>
+            <a href="https://www.instagram.com/parichay_haldar/" target='_blank' rel="noreferrer"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg03lRCaRDsvo25oTYuIkmW2IL3jp6wbfKm4wF9JoLrjktTOGPIC72HJZIYHdY9dxhzmkp9lhI2ST30E_Q0MIXwNXeBZd6f-_cDzamb31UW61lF45Laq0SOMsOn_bYVB1xvGIaPxbRNy_TSXfyTWMMuE0weFSvPNLKThFOn870CRBuaBjOhh2_suTuS/s320/profile1.jpg" alt="" /></a>
          </div>
          <div className="about_content">
             <h2>Hi I Am Parichay Haldar</h2>

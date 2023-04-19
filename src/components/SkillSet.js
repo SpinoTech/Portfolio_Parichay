@@ -1,5 +1,4 @@
 import "./SkillSet.css";
-import leetcode from "../images_folder/leetcode.png";
 import React from 'react'
 
 export default function SkillSet() {
@@ -214,7 +213,7 @@ export default function SkillSet() {
     {/* leetcode part */}
            <div id="leetbody">
             <div className="leetcode">
-              <a href="https://leetcode.com/haldarparichay/"target="_blank" rel="noreferrer"><img src={leetcode} alt="" className="leetimage" /></a>  
+              <a href="https://leetcode.com/haldarparichay/"target="_blank" rel="noreferrer"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_AtvXuO-Q_gcOkectG55pZAK1FVtiSBABUmX4oqSyfmkkqoSCcHdl3ufXp8ddj04d3k4_6Utf9SLUB_sTxrZ92vYC9nbI4Zm0z033XsoGClJsH44R5jbj-WjqU1qGaQgtJHRFNROofMmjxll1giCOfIWsTxUrBG2aZ51jvL4KalxGjU_uMpYfVlK4/s320/leetcode.png" alt="" className="leetimage" /></a>  
                 <a href="https://leetcode.com/haldarparichay/"target="_blank" rel="noreferrer"><h2>Leetcode</h2></a>
                 <a href="https://leetcode.com/haldarparichay/"target="_blank" rel="noreferrer"><p>Profile</p></a>
             </div>
