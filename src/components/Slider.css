@@ -7,7 +7,7 @@
 #projectBlock {
     position: relative;
     margin:  1rem;
-    border: 2px solid rgb(255, 118, 49);
+    /* border: 2px solid rgb(255, 118, 49); */
     border-radius: 3rem;
     /* min-width: 35rem;
     max-width:60rem ; */
