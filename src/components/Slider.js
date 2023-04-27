@@ -2,6 +2,7 @@ import "./Slider.css";
 import React from 'react'
 import Carousel from "react-elastic-carousel";
 
+
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
   { width: 550, itemsToShow: 2 },
@@ -24,12 +25,11 @@ export default function Project_slider() {
         <Carousel breakPoints={breakPoints} renderArrow={myArrow}>
           {/* Weather app link  */}
           <div id="projectBlock">
-            <a id="image_box" href="https://spinotech.github.io/Weather_app/" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1598944999410-e93772fc48a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=878&q=80" /></a>
+            <a id="image_box" href="https://spinotech.github.io/Weather_app/" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1598944999410-e93772fc48a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=878&q=80" alt=""/></a>
             <div className="topic">SpinoTech Weather app</div>
             <div className="progDetail">This is a weather app made using React and openweathermap api,It shows details like temperature, wind speed , it also has the feature of finding your location and showcasing the current temperature, also it has the feature of showing forcast of 5 days.  </div>
             <button className="btn"><a href="https://spinotech.github.io/Weather_app/" target="_blank" rel="noreferrer">View here</a></button>
           </div>
-
           {/* college game website link  */}
           <div id="projectBlock">
             <a id="image_box" href="https://cgec-sports-association.netlify.app/" target="_blank" rel="noreferrer"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjh3fQMGGtPAUk51eSjRMvY-jhel5XMIbwRoHlYGIZuMMZnbWIda3syrKj5TT6kFxd5dRAsJogKb8VRXhJ7DDTp9FbxD6-wSpK0fUUkCX4qw5DUcJmWFS1EDJ841xpTYJxJu6rGjQZN2IAvK0IGPldy5r98aDvTIWy5RXNw28ba4nUFEDNDhCPz-bdU/s320/clg_game_img.jpg" alt="food delevery website" /></a>

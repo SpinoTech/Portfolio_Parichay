@@ -40,16 +40,16 @@ export default function Footer() {
           
           <div className="social">
              <a href="https://www.facebook.com/profile.php?id=100022069003337" target="_blank" rel="noreferrer">
-              <BsFacebook  style={{ color: "#fff", marginRight: "1.2rem" }}/>
+              <BsFacebook  style={{ color: "#fff", marginRight: "" }}/>
              </a>
 
              <a href="https://github.com/SpinoTech" target="_blank" rel="noreferrer">
-             <BsGithub  style={{ color: "#fff", marginRight: "1.2rem" }}/>
+             <BsGithub  style={{ color: "#fff", marginRight: "" }}/>
              </a>
 
-             <a href="https://www.instagram.com/parichay_haldar/" target="_blank" rel="noreferrer"><BsInstagram  style={{ color: "#fff", marginRight: "1.2rem" }}/></a>
+             <a href="https://www.instagram.com/parichay_haldar/" target="_blank" rel="noreferrer"><BsInstagram  style={{ color: "#fff", marginRight: "" }}/></a>
 
-             <a href="https://www.linkedin.com/in/parichay-haldar-2348361b2/" target="_blank" rel="noreferrer"><BsLinkedin style={{ color: "#fff", marginRight: "1.2rem" }}/></a>
+             <a href="https://www.linkedin.com/in/parichay-haldar-2348361b2/" target="_blank" rel="noreferrer"><BsLinkedin style={{ color: "#fff", marginRight: "" }}/></a>
           </div>
         </div>
       </div>
