@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-between;
     box-shadow: inset 0 0 50px rgba(204, 255, 1, 0.268);
     background-color: rgba(255, 198, 10, 0.06);
     animation: bg_change 5s infinite;
@@ -57,19 +57,47 @@
     padding: 1rem;
     font-size: 1rem;
 }
+.btn-small a{
+    color: black;
+}
+.btn-small {
+   padding: 1rem; 
+   border-radius: 1.5rem;
+   background: transparent;
+   /* color:rgb(0, 0, 0); */
+   font-size: 1rem;
+   /* box-shadow: inset 0 0 10px red; */
+   /* animation: bg_change 5s infinite; */
+   font-family: 'Orbitron', sans-serif;
 
-.btn {
-    margin: 1rem;
-    /* background-color: rgba(0, 0, 0, 0.895); */
-    font-size: 1.3rem;
-    /* for making around shadow */
-    background-color: rgba(97, 244, 242, 0.082);
-    -webkit-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 5px 9px rgba(0, 0, 0, 0.75);
-    box-shadow: -1px 1px 10px 10px rgba(247, 255, 2, 0.16);
-
+   /* for tilt animation */
+   position: relative;
+  overflow: hidden;
+  background-image: radial-gradient(circle at 120px 0, #47f1f7a3, #e4fa1c6c);
+  animation: tiltImage 3s linear infinite;
+}
+.btn-small::before{
+    z-index: -1;
+    opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: skewX(-50deg);
+  background-color: #ffffffb7;
+  content: '';
+  animation: gloss 3s linear infinite;
 }
 
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 1rem;
+}
 @media screen and (max-width:500px){
     #image_box{
         height: 30%;
@@ -100,3 +128,27 @@
         background-image: linear-gradient(to top left, rgba(0, 255, 255, 0.807),rgba(0, 234, 255, 0.555),rgba(0, 234, 255, 0.259),rgba(0, 234, 255, 0.133),rgba(0, 234, 255, 0.04),rgba(0, 234, 255, 0.11),rgba(0, 234, 255, 0.237), rgba(0, 234, 255, 0.566),rgba(0, 234, 255, 0.785));
     }
 }
+
+@keyframes tiltImage {
+    0% {
+      transform: skewX(6deg);
+    }
+    50% {
+      transform: skewX(-6deg);
+    }
+    100% {
+      transform: skewX(6deg);
+    }
+  }
+
+  @keyframes gloss {
+    0% {
+      transform: translateX(-60%) skewX(-50deg);
+    }
+    50% {
+      transform: translateX(-40%) skewX(-50deg);
+    }
+    100% {
+      transform: translateX(-60%) skewX(-50deg);
+    }
+  }
