@@ -22,7 +22,7 @@ export default function Project_slider() {
   return (
     <div>
       <div className="projectContainer">
-        <Carousel breakPoints={breakPoints} renderArrow={myArrow}>
+        <Carousel breakPoints={breakPoints} renderArrow={myArrow} style={{scrollBehavior: "smooth"}}>
           {/* Notebook app link  */}
           <div id="projectBlock">
             <a id="image_box" href="https://spinotech.github.io/NoteBook_frontend/" target="_blank" rel="noreferrer"><img src="https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" /></a>

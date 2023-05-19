@@ -46,7 +46,7 @@
 }
 .social a{
     font-size: 2.5rem;
-    animation: rotate 1s infinite;
+    /* animation: rotate 1s infinite; */
     border-radius: 3rem;
     /* border: 2px solid red; */
     width: 4rem;
