@@ -11,35 +11,73 @@
     width: 100%;
     z-index: 10;
 }
-.header-scroll{
+
+.header-scroll {
     background-color: rgba(24, 1, 1, 0.386);
     transition: 0.5s;
 }
-.header h2{
+
+.header h2 {
     font-family: 'Ubuntu', sans-serif;
 }
-.header h2:hover{
+
+.header h2:hover {
     text-shadow: 2px 2px 3px rgb(87, 193, 186);
 }
+
 .navlinks {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 25%;
 }
 
 .navlinks li {
     padding: 0rem 1rem;
+    width: 25%;
 }
 
 .navlinks li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
-}
-.navlinks li:hover {
-    text-shadow: 2px 2px 3px red;
+    border: 2px solid rgb(0, 195, 255);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0 1.3rem 0 1.3rem;
+    box-shadow: 0 0 5px rgb(0, 195, 255);
+    transition: all 0.5s ease-in-out;
 }
 
-.hamburger_manu{
+.navlinks li a:hover {
+    /* text-shadow: 2px 2px 3px red; */
+    background-color: rgba(7, 245, 245, 0.489);
+    color: rgb(0, 0, 0);
+    /* box-shadow:inset 0 0 10px rgb(0, 195, 255); */
+}
+
+.hamburger_manu {
     display: none;
+}
+
+#chatting {
+    margin: 2rem;
+    display: none;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 4rem;
+    overflow: hidden;
+    border: 2px solid rgb(66, 249, 170);
+    box-shadow: 0 0 2rem rgb(66, 249, 170);
+    opacity: 0.7;
+}
+
+#chatting img {
+    height: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width:1040px) {
@@ -57,18 +95,34 @@
         z-index: -3;
         transition: 0.5s ease-in;
     }
-    
-    .navlinks.active{
-     left: 0;
+
+    .navlinks.active {
+        left: 0;
     }
 
-    .navlinks li{
-        padding:1rem 0 ;
+    .navlinks li {
+        padding: 1rem 0;
     }
-    .navlinks li a{
+
+    .navlinks li a {
         font-size: 2rem;
     }
-    .hamburger_manu{
+
+    .hamburger_manu {
         display: block;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    #chatting {
+        display: block;
+    }
+    .navlinks li{
+        width: 60%;
+    }
+    .navlinks li a {
+        box-shadow: 0 0 17px rgb(0, 195, 255);
+        background-color: rgb(17, 88, 109);
+        border-radius: 0 3rem 0 3rem;
     }
 }

@@ -133,67 +133,69 @@ export default function SkillSet() {
         <div id="skill">
             <h1 id="skillHeading"> Skills </h1>
             <div className="skillBody">
-                <div className="skillContainer">
-                    <Tilt>
-                        <div className="circular_progress">
-                            <span className="progress_val">0%</span>
-                        </div>
-                    </Tilt>
-                    <span className="skill_set">HTML & CSS</span>
-                </div>
+                <div className="circularSkill">
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress">
+                                <span className="progress_val">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">HTML & CSS</span>
+                    </div>
 
-                <div className="skillContainer">
-                    <Tilt>
-                        <div className="circular_progress" id="jsCircle">
-                            <span className="progress_val" id="jsprate">0%</span>
-                        </div>
-                    </Tilt>
-                    <span className="skill_set">Java Script</span>
-                </div>
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress" id="jsCircle">
+                                <span className="progress_val" id="jsprate">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">Java Script</span>
+                    </div>
 
-                <div className="skillContainer">
-                    <Tilt>
-                        <div className="circular_progress" id="cppCircle">
-                            <span className="progress_val" id="cpprate">0%</span>
-                        </div>
-                    </Tilt>
-                    <span className="skill_set">C++</span>
-                </div>
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress" id="cppCircle">
+                                <span className="progress_val" id="cpprate">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">C++</span>
+                    </div>
 
-                <div className="skillContainer">
-                    <Tilt>
-                        <div className="circular_progress" id="cCircle">
-                            <span className="progress_val" id="crate">0%</span>
-                        </div>
-                    </Tilt>
-                    <span className="skill_set">C language</span>
-                </div>
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress" id="cCircle">
+                                <span className="progress_val" id="crate">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">C language</span>
+                    </div>
 
-                <div className="skillContainer">
-                    <Tilt>
-                        <div className="circular_progress" id="oopsCircle">
-                            <span className="progress_val" id="oopsrate">0%</span>
-                        </div>
-                    </Tilt>
-                    <span className="skill_set">OOPs</span>
-                </div>
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress" id="oopsCircle">
+                                <span className="progress_val" id="oopsrate">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">OOPs</span>
+                    </div>
 
-                <div className="skillContainer">
-                    <Tilt>
-                        <div className="circular_progress" id="mysqlCircle">
-                            <span className="progress_val" id="mysqlrate">0%</span>
-                        </div>
-                    </Tilt>
-                    <span className="skill_set">My Sql</span>
-                </div>
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress" id="mysqlCircle">
+                                <span className="progress_val" id="mysqlrate">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">My Sql</span>
+                    </div>
 
-                <div className="skillContainer">
-                    <Tilt>
-                        <div className="circular_progress" id="gitCircle">
-                            <span className="progress_val" id="gitrate">0%</span>
-                        </div>
-                    </Tilt>
-                    <span className="skill_set">Git & GitHub</span>
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress" id="gitCircle">
+                                <span className="progress_val" id="gitrate">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">Git & GitHub</span>
+                    </div>
                 </div>
             </div>
 

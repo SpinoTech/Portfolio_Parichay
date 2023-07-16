@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Intro_image from "../images_folder/background image home.jpg";
 // for parallax tilt effect
-import Tilt from 'react-parallax-tilt';
+// import Tilt from 'react-parallax-tilt';
 
 export default function main_body(props) {
   let heding = props.heading;
@@ -27,7 +27,9 @@ export default function main_body(props) {
         <img src={Intro_image} alt="Intro_image" className="intro_image" />
       </div>
       <div className="content">
-        <Tilt><h1 id="main_hading" onClick={onClickSpeak}> </h1></Tilt>
+        {/* <Tilt> */}
+          <h1 id="main_hading" onClick={onClickSpeak}> </h1>
+          {/* </Tilt> */}
         <p>Engineer ~/~ Devoloper ~/~ Photographar</p>
 
         <div className="tog_btn">

@@ -2,19 +2,29 @@ import "./AboutContainer.css";
 import React from 'react'
 import bgVdo from '../images_folder/Black.mp4';
 // for parallax tilt effect
-import Tilt from 'react-parallax-tilt';
+// import Tilt from 'react-parallax-tilt';
+import { motion } from "framer-motion";
 
 export default function AboutContainer() {
   return (
     <div id="About_page">
       <video src={bgVdo} autoPlay muted loop className="bgvdo"></video>
       <div className="About_container">
-        <Tilt>
+        {/* <Tilt> */}
         {/* for parallax tilt effect */}
-          <div className="about_image">
-            <a href="https://www.instagram.com/parichay_haldar/" target='_blank' rel="noreferrer"> <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg03lRCaRDsvo25oTYuIkmW2IL3jp6wbfKm4wF9JoLrjktTOGPIC72HJZIYHdY9dxhzmkp9lhI2ST30E_Q0MIXwNXeBZd6f-_cDzamb31UW61lF45Laq0SOMsOn_bYVB1xvGIaPxbRNy_TSXfyTWMMuE0weFSvPNLKThFOn870CRBuaBjOhh2_suTuS/s320/profile1.jpg" alt="" /></a>
-          </div>
-        </Tilt>
+        <div className="about_image">
+          <a href="https://www.instagram.com/parichay_haldar/" target='_blank' rel="noreferrer">
+            <motion.img
+              transition={{ duration: 5, type: "spring" }}
+              initial={{height : "35vh" , width:"100%" , boxShadow: "0 0 15px rgba(255, 175, 216, 0.8)"}}
+              whileInView={{height : "45vh" , width:"100%" , boxShadow: "0 0 50px rgba(22, 215, 225, 0.429)"}}
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg03lRCaRDsvo25oTYuIkmW2IL3jp6wbfKm4wF9JoLrjktTOGPIC72HJZIYHdY9dxhzmkp9lhI2ST30E_Q0MIXwNXeBZd6f-_cDzamb31UW61lF45Laq0SOMsOn_bYVB1xvGIaPxbRNy_TSXfyTWMMuE0weFSvPNLKThFOn870CRBuaBjOhh2_suTuS/s320/profile1.jpg"
+              alt=""
+              className="profile"
+            />
+          </a>
+        </div>
+        {/* </Tilt> */}
 
         <div className="about_content">
           <h2>Hi I Am Parichay Haldar</h2>
