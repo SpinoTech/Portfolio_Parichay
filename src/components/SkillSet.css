@@ -243,6 +243,11 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
     .leetcode p{
         font-size: 1rem;
     } 
+    .circularSkill{
+        display: grid;
+        grid-template-columns: auto auto;
+        
+    }
 }
 @media screen and (max-width:800px) 
 {
@@ -262,11 +267,6 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
         height: 15rem;
         padding:1rem;
         text-align: center;
-    }
-    .circularSkill{
-        display: grid;
-        grid-template-columns: auto auto;
-        
     }
     .circular_progress{
         height: 6rem;
