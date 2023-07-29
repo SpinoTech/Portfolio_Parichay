@@ -7,7 +7,7 @@ export default function home() {
   return (
     <div>
       <Navbar/>
-      <Mainbody heading="HI I AM PARICHAY HALDAR"/>
+      <Mainbody/>
       {/* <Footer/> */}
     </div>
   )

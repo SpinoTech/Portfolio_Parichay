@@ -1,133 +1,33 @@
 import "./SkillSet.css";
-import React from 'react'
+import React, { useEffect } from 'react'
 // for parallax tilt effect
 import Tilt from 'react-parallax-tilt';
 
+const loderCircle = (start, end, circle, progressVal) => {
+    let loder = setInterval(() => {
+        start++;
+        if (start > end) clearInterval(loder);
+        else {
+            let circulat_progress = document.querySelector(circle),
+                Progress_val = document.querySelector(progressVal);
+            Progress_val.innerHTML = `${start} %`;
+            circulat_progress.style.background = `conic-gradient(red ${start * 3.6}deg, transparent 0deg)`;
+        }
+    }, 50)
+}
+
 export default function SkillSet() {
-
-    //    for html css
-    let progress_start_val = 0, progress_end_val = 70;
-    let progress = setInterval(() => {
-        progress_start_val++;
-        if (progress_start_val > progress_end_val) {
-            clearInterval(progress);
-        }
-        else {
-            let circulat_progress = document.querySelector(".circular_progress"),
-                Progress_val = document.querySelector(".progress_val");
-
-            Progress_val.innerHTML = `${progress_start_val} %`;
-
-            circulat_progress.style.background = `conic-gradient(red ${progress_start_val * 3.6}deg, transparent 0deg)`;
-        }
-    }, 50);
-
-    // for c++
-    let cpp_start = 0, cpp_end = 85;
-    let cppprogress = setInterval(() => {
-        cpp_start++;
-        // console.log(cpp_start);
-        if (cpp_start > cpp_end) {
-            clearInterval(cppprogress);
-        }
-        else {
-            let circulat_progress = document.querySelector("#cppCircle"),
-                Progress_val = document.querySelector("#cpprate");
-
-            Progress_val.innerHTML = `${cpp_start} %`;
-
-            circulat_progress.style.background = `conic-gradient(red ${cpp_start * 3.6}deg, transparent 0deg)`;
-        }
-    }, 50);
-    // for c language
-    let c_start = 0, c_end = 80;
-    let cprogress = setInterval(() => {
-        c_start++;
-        // console.log(cpp_start);
-        if (c_start > c_end) {
-            clearInterval(cprogress);
-        }
-        else {
-            let circulat_progress = document.querySelector("#cCircle"),
-                Progress_val = document.querySelector("#crate");
-
-            Progress_val.innerHTML = `${c_start} %`;
-
-            circulat_progress.style.background = `conic-gradient(red ${c_start * 3.6}deg, transparent 0deg)`;
-        }
-    }, 50);
-
-    // for OOPs
-    let oops_start = 0, oops_end = 90;
-    let oopsprogress = setInterval(() => {
-        oops_start++;
-        // console.log(cpp_start);
-        if (oops_start > oops_end) {
-            clearInterval(oopsprogress);
-        }
-        else {
-            let circulat_progress = document.querySelector("#oopsCircle"),
-                Progress_val = document.querySelector("#oopsrate");
-
-            Progress_val.innerHTML = `${oops_start} %`;
-
-            circulat_progress.style.background = `conic-gradient(red ${oops_start * 3.6}deg, transparent 0deg)`;
-        }
-    }, 50);
-
-    // for java script
-    let js_start = 0, js_end = 50;
-    let jsprogress = setInterval(() => {
-        js_start++;
-        // console.log(cpp_start);
-        if (js_start > js_end) {
-            clearInterval(jsprogress);
-        }
-        else {
-            let circulat_progress = document.querySelector("#jsCircle"),
-                Progress_val = document.querySelector("#jsprate");
-
-            Progress_val.innerHTML = `${js_start} %`;
-
-            circulat_progress.style.background = `conic-gradient(red ${js_start * 3.6}deg, transparent 0deg)`;
-        }
-    }, 50);
-
-    // my sql part 
-    let mysql_start = 0, mysql_end = 75;
-    let mysqlprogress = setInterval(() => {
-        mysql_start++;
-        // console.log(cpp_start);
-        if (mysql_start > mysql_end) {
-            clearInterval(mysqlprogress);
-        }
-        else {
-            let circulat_progress = document.querySelector("#mysqlCircle"),
-                Progress_val = document.querySelector("#mysqlrate");
-
-            Progress_val.innerHTML = `${mysql_start} %`;
-
-            circulat_progress.style.background = `conic-gradient(red ${mysql_start * 3.6}deg, transparent 0deg)`;
-        }
-    }, 50);
-
-    // git github part
-    let git_start = 0, git_end = 70;
-    let gitprogress = setInterval(() => {
-        git_start++;
-        // console.log(cpp_start);
-        if (git_start > git_end) {
-            clearInterval(gitprogress);
-        }
-        else {
-            let circulat_progress = document.querySelector("#gitCircle"),
-                Progress_val = document.querySelector("#gitrate");
-
-            Progress_val.innerHTML = `${git_start} %`;
-
-            circulat_progress.style.background = `conic-gradient(red ${git_start * 3.6}deg, transparent 0deg)`;
-        }
-    }, 50);
+// console.log(document.body.offsetHeight-window.innerHeight)
+    useEffect(() => {
+        loderCircle(0, 80, ".circular_progress", ".progress_val"); // for html css
+        loderCircle(0, 85, "#cppCircle", "#cpprate") //   for c++
+        loderCircle(0, 80, "#cCircle", "#crate") //   for c
+        loderCircle(0, 90, "#oopsCircle", "#oopsrate") //   for oops
+        loderCircle(0, 75, "#jsCircle", "#jsprate") //   for js
+        loderCircle(0, 70, "#reactCircle", "#reactprate") //   for reactJS
+        loderCircle(0, 75, "#mysqlCircle", "#mysqlrate") //   for Mysql
+        loderCircle(0, 70, "#gitCircle", "#gitrate") //   for github
+    }, [])
 
     return (
         <div id="skill">
@@ -150,6 +50,15 @@ export default function SkillSet() {
                             </div>
                         </Tilt>
                         <span className="skill_set">Java Script</span>
+                    </div>
+
+                    <div className="skillContainer">
+                        <Tilt>
+                            <div className="circular_progress" id="reactCircle">
+                                <span className="progress_val" id="reactprate">0%</span>
+                            </div>
+                        </Tilt>
+                        <span className="skill_set">ReactJS</span>
                     </div>
 
                     <div className="skillContainer">
