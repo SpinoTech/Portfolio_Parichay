@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_Parichay/static/css/main.ecbc9af3.css",
-    "main.js": "/Portfolio_Parichay/static/js/main.2982373b.js",
+    "main.css": "/Portfolio_Parichay/static/css/main.134ad589.css",
+    "main.js": "/Portfolio_Parichay/static/js/main.a3c45282.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js",
     "static/media/Black.mp4": "/Portfolio_Parichay/static/media/Black.9a865259a3da0fe4de17.mp4",
     "static/media/background image home.jpg": "/Portfolio_Parichay/static/media/background image home.bc8608a55000512f58cc.jpg",
     "index.html": "/Portfolio_Parichay/index.html",
-    "main.ecbc9af3.css.map": "/Portfolio_Parichay/static/css/main.ecbc9af3.css.map",
-    "main.2982373b.js.map": "/Portfolio_Parichay/static/js/main.2982373b.js.map",
+    "main.134ad589.css.map": "/Portfolio_Parichay/static/css/main.134ad589.css.map",
+    "main.a3c45282.js.map": "/Portfolio_Parichay/static/js/main.a3c45282.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecbc9af3.css",
-    "static/js/main.2982373b.js"
+    "static/css/main.134ad589.css",
+    "static/js/main.a3c45282.js"
   ]
 }
