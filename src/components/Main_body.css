@@ -57,6 +57,9 @@ box-shadow: 0 0 10rem #82f56075;
   /* box-shadow: inset -25px -25px 40px rgba(0,0,0,.5); */
 }
 
+#arrow{
+  display: none;
+}
 
 .content h1 {
   font-size: 6rem;
@@ -6171,6 +6174,21 @@ box-shadow: 0 0 10rem #82f56075;
     left: auto;
     right: auto;
     box-shadow: 0 0 30rem #ff5a0775;
+    border: 4px solid white;
+  }
+  #arrow{
+    display: block;
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 19rem;
+    right: 2rem;
+    transform: rotate(-10deg);
+     /* color changing */
+     -webkit-filter: invert(100%); /* Safari/Chrome */
+     filter: invert(100%);
+     
+    
   }
 
   .content h1{

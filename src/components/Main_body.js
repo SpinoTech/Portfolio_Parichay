@@ -2,8 +2,7 @@ import "./Main_body.css";
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import Intro_image from "../images_folder/background image home.jpg";
-// for parallax tilt effect
-// import Tilt from 'react-parallax-tilt';
+import arrow from "../images_folder/arrow.png";
 
 export default function Main_body() {
   useEffect(() => {
@@ -29,9 +28,8 @@ export default function Main_body() {
         <div className="imgbox">
           <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxSVss-PbPxjgnpdHxX0n24EAJCaGi0zQRSEP1pGVJIRBS7z1ZOlH7l8NDuI8tnlztdK5bjBcKajitAUNzwhcSRwx4K85ueVnneqOpkelADxXHNfKKd4BGsf2QZH1gU1NXDnU7Gpx0KS5xqjzqb_mR3gOlKjadtHIwi0ZXfYD8VVqTh70agUVg_VImv9s/s320/Screenshot%202023-07-29%20234529.jpg" alt="bgimg" srcset="" />
         </div>
-        {/* <Tilt> */}
+        <img src={arrow} alt="arrow" srcset="" id="arrow"/>
         <h1 id="main_hading"> </h1>
-        {/* </Tilt> */}
         <p>Engineer ~/~ Devoloper ~/~ Photographar</p>
         <div className="tog_btn">
           <Link to="/Project" className="btn">Projects</Link>
