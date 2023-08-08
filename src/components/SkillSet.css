@@ -7,8 +7,7 @@
 }
 #skill{
     /* border: 2px solid red; */
-    box-shadow: inset 0 0 20px #04a4b69b;
-    background-color: rgba(25, 246, 220, 0.052);
+    background-image: linear-gradient(to right top, #6a848461 , #005e2c5b);
     margin-top: 4px;
     margin-bottom: 4px;
     border-radius: 2rem;
@@ -16,9 +15,7 @@
     transition: 0.6s;
     font-family: 'Orbitron', sans-serif;
 }
-#skill:hover{
-    background-color: rgba(240, 245, 92, 0.042);
-}
+
 #skillHeading{
     text-shadow: 2px 2px 3px red;
     font-size: 3rem;
@@ -257,6 +254,7 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
 {
     #skill{
         padding: 1rem;
+        background-image: linear-gradient(to right top, #faffff61 , #04b5fb5b);
     }
     .skillContainer{
         margin: 0.5rem;
@@ -264,6 +262,7 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
         height: 15rem;
         padding:1rem;
         text-align: center;
+        background-image: linear-gradient(to right top, #faffff61 , #04b5fb5b);
     }
     .circular_progress{
         height: 6rem;
@@ -278,6 +277,7 @@ box-shadow: -1px 1px 5px 11px rgb(97 244 241 / 16%);
     }
     .leetcode{
         width: 60%;
+        background-image: linear-gradient(to right top, #faffff61 , #04b5fb5b);
     }
     .leetimage{
         height: 1.5rem;

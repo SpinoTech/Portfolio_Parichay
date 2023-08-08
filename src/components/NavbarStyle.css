@@ -131,3 +131,8 @@
         border-radius: 0 3rem 0 3rem;
     }
 }
+@media screen and (max-width:500px) {
+    .navlinks{
+        background-image: linear-gradient(to right top, #faffff61 , #04b5fb5b);
+    }
+}

@@ -3,8 +3,7 @@
 
 #About_page {
     margin: 0;
-    /* padding: 0; */
-    /* box-shadow: inset 0 0 20px #04a4b69b; */
+    background-image: linear-gradient(to right top, #6a848461 , #005e2c5b);
     padding: 3rem;
     margin-top: 0.4rem;
     margin-bottom: 0.4rem;
@@ -27,11 +26,11 @@
 
 .About_container {
     margin: 2px;
-    box-shadow: inset 0 0 20px #04a4b69b;
+    background-image: linear-gradient(to right top, #faffff61 , #04fb775b);
     border-radius: 40px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     transition: 0.6s;
 }
 
@@ -66,7 +65,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 75%;
     font-family: 'Yeseva One', cursive;
 }
 
@@ -79,8 +78,8 @@
 }
 
 .about_content p {
-    font-size: 2rem;
-    text-align: center;
+    font-size: 1.4rem;
+    /* text-align: center; */
     margin: 1rem;
     padding: 1rem;
     color: #c6f993;
@@ -158,12 +157,15 @@
         margin:0;
         padding: 0.5rem;
         padding-top: 4rem;
+        background-image: linear-gradient(to right top, #faffff29 , #04b5fb28);
+        border-radius: 0 0 2rem 2rem ;
     }
     .About_container {
         margin-top: 1rem;
         flex-direction: column;
         align-items: center;
         padding: 0.5rem;
+        background-image: linear-gradient(to right top, #faffff61 , #04b5fb5b);
     }
 
     .about_content {
