@@ -43,7 +43,7 @@ export default function Footer() {
               <BsFacebook  style={{ color: "#fff", marginRight: "" }}/>
              </a>
 
-             <a href="https://github.com/SpinoTech" target="_blank" rel="noreferrer">
+             <a href="https://github.com/SpinoTech?tab=repositories" target="_blank" rel="noreferrer">
              <BsGithub  style={{ color: "#fff", marginRight: "" }}/>
              </a>
 

@@ -27,7 +27,7 @@
 .About_container {
     margin: 2px;
     background-image: linear-gradient(to right top, #faffff61 , #04fb775b);
-    border-radius: 40px;
+    border-radius:  1.5rem 0.2rem 1.5rem 0.2rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
