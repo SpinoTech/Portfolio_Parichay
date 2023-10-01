@@ -62,7 +62,7 @@
     z-index: -1;
 }
 
-.right {
+.signature {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -136,30 +136,36 @@
         top: 20rem;
         left: 10rem;
     }
-    .right{
+    .signature{
         visibility: hidden;
     }
 }
 @media screen and (max-width:700px) {
     .updateBody,
     .animation {
-        height: 50rem;
+        height: 40rem;
     }
     .imgBody {
-       height: 7rem;
-       width: 7rem;
-       margin: 1rem;
-    }
-    .UpdateHead h1 {
-        left: 9rem;
-        top: 0rem;
-        font-size: 1.5rem;
-    }
-    .UpdateHead p {
-        width: 80%;
-        position: absolute;
-        top: 13rem;
-        left: 1rem;
-        font-size: 1rem;
+        height: 7rem;
+        width: 7rem;
+        margin: 1rem;
+     }
+     .UpdateHead h1 {
+         left: 9rem;
+         top: 0rem;
+         font-size: 1.5rem;
+     }
+     .UpdateHead p {
+         width: 80%;
+         position: absolute;
+         top: 13rem;
+         left: 1rem;
+         font-size: 1rem;
+     }
+}
+@media screen and (max-width:500px) {
+    .updateBody,
+    .animation {
+        height: 60rem;
     }
 }

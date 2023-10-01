@@ -22,7 +22,7 @@ export default function Excitingupdates() {
                 
                     <Typewriter text="Empowering Dreams: My Journey with Cisco as a Software Test Engineer Trainee Apprentice" tag='h1' />
                     <Typewriter text={text} tag='p' />
-                    <p className='right'> ~ Parichay Haldar ~</p>
+                    <p className='signature'> ~ Parichay Haldar ~</p>
                 </div>
 
             </div>

@@ -185,8 +185,8 @@
 
 /* for button animation */
 .custom-btn {
-  width: 70px;
-  height: 20px;
+  width: 80px;
+  height: 30px;
   color: #fff;
   border-radius: 5px 0 5px 0;
   /* padding: 10px 25px; */
@@ -206,8 +206,8 @@
 .btn-3 {
   /* background: rgb(0, 172, 238); */
   background: linear-gradient(0deg, rgb(6, 11, 13) 0%, rgb(38, 95, 105) 100%);
-  width: 70px;
-  height: 20px;
+  width: 80px;
+  height: 30px;
   /* line-height: 42px; */
   padding: 0;
   border: none;
@@ -293,6 +293,10 @@
 }
 
 @media screen and (max-width:500px) {
+  .logo {
+    height: 6rem;
+    width: 6rem;
+  }
   .projectContainer {
     background-image: linear-gradient(to left bottom, #faffff81, #04b5fb49);
   }
