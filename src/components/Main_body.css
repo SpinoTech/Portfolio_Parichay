@@ -75,7 +75,7 @@ box-shadow: 0 0 10rem #82f56075;
   left: 30rem;
 }
 
-.content p {
+#desc {
   margin: 1rem;
   padding: 0.5rem 0 2rem;
   font-size: 2.5rem;
@@ -96,6 +96,27 @@ box-shadow: 0 0 10rem #82f56075;
 .btn {
   margin: 0.6rem;
   font-family: 'Moon Dance', cursive;
+}
+
+#scroolDown{
+position: absolute;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+}
+#scroolDown img{
+  height: 6rem;
+  width: 6rem;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
+.scroolDownText{
+  font-size: 1rem;
+  background: linear-gradient(to right, #30CFD0 0%, #ffffff 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 
@@ -6158,7 +6179,7 @@ box-shadow: 0 0 10rem #82f56075;
     padding: 0;
     font-size: 4rem;
   }
-  .content p{
+  #desc{
     top: 40rem;
     right: 15rem;
   }
@@ -6197,7 +6218,7 @@ box-shadow: 0 0 10rem #82f56075;
     top: 30rem;
     font-size: 2rem;
   }
-  .content p{
+  #desc{
     top: 35rem;
     font-size: 1.3rem;
     left: auto;
@@ -6207,6 +6228,11 @@ box-shadow: 0 0 10rem #82f56075;
     left: auto;
     right: auto;
     bottom: 5rem;
+  }
+
+  #scroolDown img{
+    height: 3rem;
+  width: 3rem;
   }
   
 }

@@ -1,0 +1,165 @@
+.updateBody {
+    height: 40rem;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    animation: bgGredientChnage 10s infinite;
+    padding: 1rem 0;
+}
+
+.UpdateHead {
+    width: calc(100% - 12rem);
+}
+
+.UpdateHead h1 {
+    font-weight: bold;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    background: linear-gradient(to right, #30CFD0 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.UpdateHead p {
+    font-weight: bold;
+    width: 90%;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #30CFD0 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.imgBody {
+    margin: 3rem;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 1.5rem;
+    border: 2px solid rgb(102, 102, 102);
+    overflow: hidden;
+    box-shadow: 0 0 1.5rem skyblue;
+}
+
+.imgBody img {
+    height: 100%;
+    width: 100%;
+}
+
+.animation {
+    height: 40rem;
+    width: 100%;
+    position: absolute;
+}
+
+.animation img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+.right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes bgGredientChnage {
+    0% {
+        background: linear-gradient(0deg, rgb(6, 11, 13) 0%, rgba(38, 95, 105, 0.405) 100%);
+    }
+
+    25% {
+        background: linear-gradient(0deg, rgb(27, 13, 13) 0%, rgba(38, 95, 105, 0.405) 100%);
+    }
+
+    50% {
+        background: linear-gradient(0deg, rgb(44, 20, 20) 0%, rgba(38, 95, 105, 0.405) 100%);
+    }
+
+    100% {
+        background: linear-gradient(0deg, rgb(67, 12, 12) 0%, rgba(38, 95, 105, 0.405) 100%);
+    }
+}
+
+@media screen and (max-width:1500px) {
+
+    .updateBody,
+    .animation {
+        height: 50rem;
+    }
+}
+
+@media screen and (max-width:1100px) {
+
+    .updateBody,
+    .animation {
+        height: 60rem;
+    }
+}
+
+@media screen and (max-width:950px) {
+
+    .updateBody,
+    .animation {
+        height: 70rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .UpdateHead {
+        width: 100%;
+    }
+    .updateBody,
+    .animation {
+        height: 85rem;
+    }
+    .imgBody {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .UpdateHead h1 {
+        left: 20rem;
+        top: 5rem;
+        position: absolute;
+        font-size: 1.5rem;
+    }
+    .UpdateHead p {
+        width: 80%;
+        position: absolute;
+        top: 20rem;
+        left: 10rem;
+    }
+    .right{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width:700px) {
+    .updateBody,
+    .animation {
+        height: 50rem;
+    }
+    .imgBody {
+       height: 7rem;
+       width: 7rem;
+       margin: 1rem;
+    }
+    .UpdateHead h1 {
+        left: 9rem;
+        top: 0rem;
+        font-size: 1.5rem;
+    }
+    .UpdateHead p {
+        width: 80%;
+        position: absolute;
+        top: 13rem;
+        left: 1rem;
+        font-size: 1rem;
+    }
+}
