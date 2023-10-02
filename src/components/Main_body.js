@@ -5,7 +5,7 @@ import Intro_image from "../images_folder/background image home.jpg";
 import arrow from "../images_folder/arrow.png";
 import Mouse from "../images_folder/mouseDown.gif";
 
-export default function Main_body() {
+export default function Main_body({ openVisitors }) {
   useEffect(() => {
     const heading = "HI I AM PARICHAY HALDAR";
     let i = 0;
@@ -43,6 +43,8 @@ export default function Main_body() {
           <img src={Mouse} alt="" />
           <p className="scroolDownText">latest updates</p>
         </div>
+        {/* for visitor part */}
+        <div class={openVisitors ? "elfsight-app-23008504-b83e-420f-bfa2-e0029ac4ceb8 showViewerCard" : "elfsight-app-23008504-b83e-420f-bfa2-e0029ac4ceb8 hideViewerCard"}></div>
       </div>
 
       {/* for animation */}

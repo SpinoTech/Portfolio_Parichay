@@ -13,6 +13,7 @@
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 
@@ -118,7 +119,21 @@ flex-direction: row;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-
+.showViewerCard{
+  position: absolute;
+  top: 5rem;
+  left: 105rem;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.hideViewerCard{
+  position: absolute;
+  top: 5rem;
+  left: 127rem;
+  /* border-radius: 2rem; */
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
 
 /* for animation effect */
 .animationBox{
@@ -6233,6 +6248,10 @@ flex-direction: row;
   #scroolDown img{
     height: 3rem;
   width: 3rem;
+  }
+
+  .showViewerCard,.hideViewerCard{
+    display: none;
   }
   
 }

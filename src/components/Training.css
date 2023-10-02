@@ -25,6 +25,9 @@
     flex-direction: row;
     justify-content:space-around;
     align-items: center;
+    background: linear-gradient(to right, #6a1414 0%, #2f002b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .training_container h3{
     text-align: center;

@@ -80,11 +80,53 @@
     width: 100%;
 }
 
-.activeNav{
+.activeNav {
     background-color: rgb(0, 243, 251);
     color: rgb(0, 0, 0);
     box-shadow: 0 0 10px rgb(0, 195, 255);
 }
+
+
+.visitorManu {
+    position: absolute;
+    width: 11rem;
+    height: 2rem;
+    top: 56rem;
+    left: 117rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(0deg, rgb(6, 11, 13) 0%, rgb(38, 95, 105) 100%);
+    
+}
+
+.hiddenVisitorManu {
+    position: absolute;
+    width: 10rem;
+    height: 2rem;
+    top: 56rem;
+    left: 124rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(0deg, rgb(6, 11, 13) 0%, rgb(38, 95, 105) 100%);
+    
+}
+
+
+.visitorManu button,
+.hiddenVisitorManu button {
+    height: 100%;
+    width: 100%;
+    /* background: transparent; */
+    background: linear-gradient(to right, #30CFD0 0%, #804cc0 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
 @media screen and (max-width:1040px) {
     .navlinks {
         flex-direction: column;
@@ -122,17 +164,23 @@
     #chatting {
         display: block;
     }
-    .navlinks li{
+
+    .navlinks li {
         width: 60%;
     }
+
     .navlinks li a {
         box-shadow: 0 0 17px rgb(0, 195, 255);
         background-color: rgb(17, 88, 109);
         border-radius: 0 3rem 0 3rem;
     }
 }
+
 @media screen and (max-width:500px) {
-    .navlinks{
-        background-image: linear-gradient(to right top, #faffff61 , #04b5fb5b);
+    .navlinks {
+        background-image: linear-gradient(to right top, #faffff61, #04b5fb5b);
+    }
+    .visitorManu ,.hiddenVisitorManu{
+        display: none;
     }
 }

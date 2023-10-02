@@ -4,6 +4,8 @@ import bgVdo from '../images_folder/Black.mp4';
 // for parallax tilt effect
 // import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
+import animation from "../images_folder/animation4.gif"
+import Typewriter from "./Typewriter";
 
 export default function AboutContainer() {
   return (
@@ -28,25 +30,29 @@ export default function AboutContainer() {
 
         <div className="about_content">
           <h2>Hi I Am Parichay Haldar</h2>
-          <p>
+          
+          <Typewriter text="My journey began in the quaint village of Gouripur, situated in the picturesque landscapes of Kultali, South 24 Parganas, with the postal code 743338. From those humble beginnings, I embarked on a path of academic excellence that has defined my life's trajectory." tag='p' />
+          
+          <Typewriter text="During my formative years, I established a reputation for academic prowess, consistently achieving top ranks in my primary school. This trend continued through my schooling, culminating in my position as the valedictorian of my class at the culmination of grade 10. The pursuit of knowledge fueled my aspirations, propelling me towards Dakshin Barasat, a small town nestled amidst the villages, where I endeavored to enrich and upskill my educational journey." tag='p' />
+          
+          <Typewriter text=" At Dakshin Barasat Sibdas Acharya High School, I experienced the excitement and challenges of transitioning from childhood to adulthood. This pivotal period marked the passage of two transformative years, shaping my character and strengthening my resolve. In the wake of this transformation, I successfully navigated my Higher Secondary Examinations, further reinforcing my commitment to intellectual growth." tag='p' />
+          
+          <Typewriter text="Subsequently, I set my sights on the medical field, diligently preparing for esteemed entrance examinations such as NEET and AIIMS. Despite my earnest efforts, the coveted success eluded me in this pursuit. Yet, in the face of this challenging juncture, I chose to embrace a new direction. A path carved in the realms of Physics beckoned, and I embarked on a journey to hone my skills and expand my horizons." tag='p' />
+          
+          <Typewriter text="Parallel to my studies, I set forth on a quest to realize my ambitions in the realm of engineering. I was admitted to the Computer Science & Engineering Department at Cooch Behar Government Engineering College, marking a significant milestone in my academic voyage. The halls of higher learning welcomed me, and I immersed myself in the world of algorithms, coding, and innovation." tag='p' />
+          
+          <Typewriter text="My journey, much like the code I write, is an ongoing process of continuous improvement. From a village to a small town, from academic accolades to unforeseen challenges, my narrative is a testament to resilience, adaptability, and the unwavering pursuit of knowledge. As I stand at the crossroads of past achievements and future endeavors, I am poised to embrace the opportunities that lie ahead, armed with the wisdom gained from my diverse experiences." tag='p' />
+          
+          <Typewriter text="Thank you for joining me on this journey, and I look forward to the chapters yet to be written." tag='p' />
+        </div>
 
-            My journey began in the quaint village of Gouripur, situated in the picturesque landscapes of Kultali, South 24 Parganas, with the postal code 743338. From those humble beginnings, I embarked on a path of academic excellence that has defined my life's trajectory.
-            <br /><br />
-            During my formative years, I established a reputation for academic prowess, consistently achieving top ranks in my primary school. This trend continued through my schooling, culminating in my position as the valedictorian of my class at the culmination of grade 10. The pursuit of knowledge fueled my aspirations, propelling me towards Dakshin Barasat, a small town nestled amidst the villages, where I endeavored to enrich and upskill my educational journey.
-            <br /><br />
-            At Dakshin Barasat Sibdas Acharya High School, I experienced the excitement and challenges of transitioning from childhood to adulthood. This pivotal period marked the passage of two transformative years, shaping my character and strengthening my resolve. In the wake of this transformation, I successfully navigated my Higher Secondary Examinations, further reinforcing my commitment to intellectual growth.
-            <br /><br />
-            Subsequently, I set my sights on the medical field, diligently preparing for esteemed entrance examinations such as NEET and AIIMS. Despite my earnest efforts, the coveted success eluded me in this pursuit. Yet, in the face of this challenging juncture, I chose to embrace a new direction. A path carved in the realms of Physics beckoned, and I embarked on a journey to hone my skills and expand my horizons.
-            <br /><br />
-            Parallel to my studies, I set forth on a quest to realize my ambitions in the realm of engineering. I was admitted to the Computer Science & Engineering Department at Cooch Behar Government Engineering College, marking a significant milestone in my academic voyage. The halls of higher learning welcomed me, and I immersed myself in the world of algorithms, coding, and innovation.
-            <br /><br />
-            My journey, much like the code I write, is an ongoing process of continuous improvement. From a village to a small town, from academic accolades to unforeseen challenges, my narrative is a testament to resilience, adaptability, and the unwavering pursuit of knowledge. As I stand at the crossroads of past achievements and future endeavors, I am poised to embrace the opportunities that lie ahead, armed with the wisdom gained from my diverse experiences.
-            <br /><br />
-            Thank you for joining me on this journey, and I look forward to the chapters yet to be written.
-
-          </p>
+        {/* for background animation */}
+        <div className="aboutAnimation">
+          <img src={animation} alt="" />
         </div>
       </div>
+
+
 
       <div className="About_container">
         <div className="education">

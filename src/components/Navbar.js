@@ -5,7 +5,7 @@ import { Link ,useLocation} from 'react-router-dom';
 
 import { Sling as Hamburger } from 'hamburger-react'
 
-export default function Navbar() {
+export default function Navbar({openVisitors , setOpenVisitors}) {
     // setting the state properties
     const [click, setClick] = useState(false);
     const handleClick=()=>setClick(!click);
@@ -43,6 +43,10 @@ export default function Navbar() {
                 
                 {}
             </div>
+            <div className={openVisitors?"hiddenVisitorManu":"visitorManu"} style={splitLocation[1]!==""?{display:"none"}:{}}>
+                <button onClick={()=>{setOpenVisitors(!openVisitors)}}>{!openVisitors?"Open Visitors Analysis":"Close Visitors Analysis"}</button>
+            </div>
+            
         </div>
     )
 }

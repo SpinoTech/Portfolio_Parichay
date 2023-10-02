@@ -1,17 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Mainbody from'../components/Main_body';
 import Excitingupdates from '../components/Excitingupdates';
 // import Footer from '../components/Footer';
 
-export default function home() {
+export default function Home() {
+  // for openint visitors part
+  const [openVisitors , setOpenVisitors]=useState(false)
   return (
     <div>
-      <Navbar/>
-      <Mainbody/>
+      <Navbar openVisitors={openVisitors} setOpenVisitors={setOpenVisitors}/>
+      <Mainbody openVisitors={openVisitors}/>
       <Excitingupdates/>
       {/* <Footer/> */}
     </div>
   )
 }
+
 
