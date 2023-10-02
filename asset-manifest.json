@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio_Parichay/static/css/main.c804124f.css",
-    "main.js": "/Portfolio_Parichay/static/js/main.ab73182e.js",
+    "main.css": "/Portfolio_Parichay/static/css/main.ff0d4662.css",
+    "main.js": "/Portfolio_Parichay/static/js/main.2b38934f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js",
     "static/media/Black.mp4": "/Portfolio_Parichay/static/media/Black.9a865259a3da0fe4de17.mp4",
     "static/media/CiscoFireworks.gif": "/Portfolio_Parichay/static/media/CiscoFireworks.d5c2969596077855a98f.gif",
     "static/media/animation3.gif": "/Portfolio_Parichay/static/media/animation3.905c8ad2f5f3317b38df.gif",
+    "static/media/animation4.gif": "/Portfolio_Parichay/static/media/animation4.666336cfb52a3e29f1c6.gif",
     "static/media/mouseDown.gif": "/Portfolio_Parichay/static/media/mouseDown.18678b8473501cfa7294.gif",
     "static/media/background image home.jpg": "/Portfolio_Parichay/static/media/background image home.bc8608a55000512f58cc.jpg",
     "static/media/arrow.png": "/Portfolio_Parichay/static/media/arrow.ad1d9c28af76f25e4d47.png",
     "index.html": "/Portfolio_Parichay/index.html",
-    "main.c804124f.css.map": "/Portfolio_Parichay/static/css/main.c804124f.css.map",
-    "main.ab73182e.js.map": "/Portfolio_Parichay/static/js/main.ab73182e.js.map",
+    "main.ff0d4662.css.map": "/Portfolio_Parichay/static/css/main.ff0d4662.css.map",
+    "main.2b38934f.js.map": "/Portfolio_Parichay/static/js/main.2b38934f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c804124f.css",
-    "static/js/main.ab73182e.js"
+    "static/css/main.ff0d4662.css",
+    "static/js/main.2b38934f.js"
   ]
 }
