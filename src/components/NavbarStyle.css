@@ -126,8 +126,26 @@
     border: none;
     cursor: pointer;
 }
-
-@media screen and (max-width:1040px) {
+@media screen and (max-width:1400px) {
+    .navlinks {
+        width: 40%;
+    }
+    .navlinks li a {
+        font-size: 1rem;
+        padding: 0.2rem;
+        margin: 0;
+    }
+    .visitorManu {
+        top: 36rem;
+        left: 69rem;
+    }
+    
+    .hiddenVisitorManu {
+        top: 36rem;
+        left: 76.5rem;
+    }
+}
+@media screen and (max-width:1200px) {
     .navlinks {
         flex-direction: column;
         justify-content: center;
@@ -148,31 +166,25 @@
     }
 
     .navlinks li {
+        width: 60%;
         padding: 1rem 0;
     }
 
     .navlinks li a {
         font-size: 2rem;
+        box-shadow: 0 0 17px rgb(0, 195, 255);
+        background-color: rgb(17, 88, 109);
+        border-radius: 0 3rem 0 3rem;
     }
 
     .hamburger_manu {
         display: block;
     }
-}
-
-@media screen and (max-width:1040px) {
     #chatting {
         display: block;
     }
-
-    .navlinks li {
-        width: 60%;
-    }
-
-    .navlinks li a {
-        box-shadow: 0 0 17px rgb(0, 195, 255);
-        background-color: rgb(17, 88, 109);
-        border-radius: 0 3rem 0 3rem;
+    .visitorManu ,.hiddenVisitorManu{
+        display: none;
     }
 }
 

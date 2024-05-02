@@ -6189,6 +6189,49 @@ flex-direction: row;
 
 /* animation ends here */
 
+@media screen and (max-width : 1400px) {
+  .showViewerCard{
+    top: 3rem;
+    left: 63rem;
+  }
+  .hideViewerCard{
+    top: 3rem;
+    left: 80rem;
+  }
+  .imgbox {
+    height: 18rem;
+    width: 18rem;
+    top: 10rem;
+    left: 4rem;
+  }
+  .content h1 {
+    font-size: 3.5rem;
+    padding: 0.2rem 0 1.7rem;
+    top: 20rem;
+    left: 23rem;
+  }
+  #desc {
+    margin: 0;
+    font-size: 2rem;
+    top: 24rem;
+    right: 5rem;
+  }
+  .tog_btn {
+    bottom: 7rem;
+    right: 5rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0rem 1rem 0rem 1rem;
+  }
+  #scroolDown img{
+    height: 4rem;
+    width: 4rem;
+  }
+  
+}
+
 @media screen and (max-width:1250px) {
   .content h1 {
     padding: 0;
@@ -6197,6 +6240,12 @@ flex-direction: row;
   #desc{
     top: 40rem;
     right: 15rem;
+  }
+  .showViewerCard{
+    display: none;
+  }
+  .hideViewerCard{
+    display: none;
   }
 }
 @media screen and (max-width:650px) {

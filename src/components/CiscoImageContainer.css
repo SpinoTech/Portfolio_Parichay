@@ -1,0 +1,158 @@
+.CiscoImgContainer {
+    width: 100%;
+    height: auto;
+    /* padding: 1rem; */
+}
+
+.CiscoImgContainer h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+.background_cisco {
+    width: 100%;
+    height: 50rem;
+    z-index: -1;
+    position: absolute;
+}
+
+.imageBoxCisco {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+.imgBoxxleft {
+    height: 20rem;
+    width: 25rem;
+    border: 5px solid white;
+    transform: perspective(600px) rotate3D(0, 1, 0, 30deg);
+    /* z-index: -2; */
+}
+
+.imgBoxxright {
+    height: 20rem;
+    width: 25rem;
+    border: 5px solid white;
+    transform: perspective(600px) rotate3D(0, -1, 0, 30deg);
+}
+
+.imgBoxxleft img,
+.imgBoxxright img {
+    height: 100%;
+    width: 100%;
+}
+
+.imgBoxxright p,
+.imgBoxxleft p {
+    height: 15rem;
+    width: 20rem;
+    text-align: center;
+    color: aqua;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width : 1400px) {
+
+    .imgBoxxright,
+    .imgBoxxleft {
+        height: 15rem;
+        width: 20rem;
+    }
+    .imageBoxCisco {
+        grid-template-columns: auto auto auto ;
+    }
+}
+@media screen and (max-width : 750px) {
+
+    .imgBoxxright,
+    .imgBoxxleft {
+        height: 10rem;
+        width: 15rem;
+    }
+    .imageBoxCisco {
+        grid-template-columns: auto auto auto ;
+    }
+}
+@media screen and (max-width : 550px) {
+
+    .imgBoxxright,
+    .imgBoxxleft {
+        height: 6rem;
+        width: 8rem;
+    }
+    .imageBoxCisco {
+        grid-template-columns: auto auto auto ;
+        gap: 0.1rem;
+    }
+}

@@ -19,6 +19,7 @@
     font-weight: bold;
     margin: 1rem 0;
     font-size: 2.5rem;
+    /* text-align: center; */
     background: linear-gradient(to right, #30CFD0 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -27,6 +28,7 @@
 .UpdateHead p {
     font-weight: bold;
     width: 90%;
+    /* text-align: center; */
     margin: 0 1rem;
     font-size: 1.2rem;
     background: linear-gradient(to right, #30CFD0 0%, #ffffff 100%);
@@ -52,7 +54,7 @@
 .animation {
     height: 40rem;
     width: 100%;
-    position: absolute;
+    position: relative;
 }
 
 .animation img {
@@ -88,10 +90,26 @@
 }
 
 @media screen and (max-width:1500px) {
-
+    .UpdateHead {
+        width: 100%;
+    }
+    .imgBody {
+        margin: 1.5rem;
+        height: 12rem;
+        width: 12rem;
+        border-radius: 1.5rem;
+    }
     .updateBody,
     .animation {
-        height: 50rem;
+        height: 60rem;
+    }
+    .UpdateHead h1 {
+        font-size: 2rem;
+    }
+    
+    .UpdateHead p {
+        width: auto;
+        font-size: 1.1rem;
     }
 }
 
