@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_Parichay/static/css/main.fca2f3f7.css",
-    "main.js": "/Portfolio_Parichay/static/js/main.33354446.js",
+    "main.js": "/Portfolio_Parichay/static/js/main.054836f0.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js",
     "static/media/Black.mp4": "/Portfolio_Parichay/static/media/Black.9a865259a3da0fe4de17.mp4",
     "static/media/CiscoFireworks.gif": "/Portfolio_Parichay/static/media/CiscoFireworks.d5c2969596077855a98f.gif",
@@ -41,11 +41,11 @@
     "static/media/arrow.png": "/Portfolio_Parichay/static/media/arrow.ad1d9c28af76f25e4d47.png",
     "index.html": "/Portfolio_Parichay/index.html",
     "main.fca2f3f7.css.map": "/Portfolio_Parichay/static/css/main.fca2f3f7.css.map",
-    "main.33354446.js.map": "/Portfolio_Parichay/static/js/main.33354446.js.map",
+    "main.054836f0.js.map": "/Portfolio_Parichay/static/js/main.054836f0.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fca2f3f7.css",
-    "static/js/main.33354446.js"
+    "static/js/main.054836f0.js"
   ]
 }
