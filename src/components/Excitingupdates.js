@@ -3,6 +3,8 @@ import "./Excitingupdates.css";
 // import animation3 from "../images_folder/animation3.gif";
 import ciscoAnimation from "../images_folder/CiscoFireworks.gif";
 import Typewriter from './Typewriter';
+// import "animate.css/animate.compat.css"
+// import ScrollAnimation from "react-animate-on-scroll";
 
 export default function Excitingupdates() {
     let width = window.screen.width;
@@ -14,14 +16,20 @@ export default function Excitingupdates() {
     return (
         <>
             <div className='updateBody'>
+            {/* <ScrollAnimation animateIn="fadeInDown" delay={1}> */}
                 <div className='imgBody'>
                     <img src="https://blogger.googleusercontent.com/img/a/AVvXsEgiYgV5WB44Wupsxij6T4Uv_k8So2urnvY0joUleuYhgGd8VjIm80O-wKrOSdzFXaZTFYEFdOraFrYZhMNa735eghB5mxOk8ynXcDq5-nvWEjLZkpollpYYsDcRBY8oMpmAMbp3alO_rD48ZtBLhbgdOascJYdsNrEMJeORxafvKf2v6kr2bz-IIHid5IY" alt="" />
                 </div>
+                {/* </ScrollAnimation> */}
 
                 <div className="UpdateHead">
-                
+                {/* <ScrollAnimation animateIn="fadeInLeft" delay={1}> */}
                     <Typewriter text="Empowering Dreams: My Journey with Cisco as a Software Test Engineer Trainee Apprentice" tag='h1' />
+                    {/* </ScrollAnimation> */}
+                    {/* <ScrollAnimation animateIn="fadeInRight" delay={1}> */}
                     <Typewriter text={text} tag='p' />
+                    {/* <p>{text}</p> */}
+                    {/* </ScrollAnimation> */}
                     <p className='signature'> ~ Parichay Haldar ~</p>
                 </div>
 

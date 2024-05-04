@@ -9,6 +9,8 @@
     position: absolute;
     animation: bgGredientChnage 10s infinite;
     padding: 1rem 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .UpdateHead {

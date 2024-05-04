@@ -5,6 +5,7 @@ import Intro_image from "../images_folder/background image home.jpg";
 import arrow from "../images_folder/arrow.png";
 import Mouse from "../images_folder/mouseDown.gif";
 
+
 export default function Main_body({ openVisitors }) {
   useEffect(() => {
     const heading = "HI I AM PARICHAY HALDAR";

@@ -2,6 +2,8 @@
     width: 100%;
     height: auto;
     /* padding: 1rem; */
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .CiscoImgContainer h1 {
@@ -99,6 +101,7 @@
     transform: perspective(600px) rotate3D(0, 1, 0, 30deg);
     /* z-index: -2; */
 }
+
 
 .imgBoxxright {
     height: 20rem;
