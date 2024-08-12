@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_Parichay/static/css/main.fca2f3f7.css",
-    "main.js": "/Portfolio_Parichay/static/js/main.054836f0.js",
+    "main.js": "/Portfolio_Parichay/static/js/main.f6d3fa0a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js",
     "static/media/Black.mp4": "/Portfolio_Parichay/static/media/Black.9a865259a3da0fe4de17.mp4",
     "static/media/CiscoFireworks.gif": "/Portfolio_Parichay/static/media/CiscoFireworks.d5c2969596077855a98f.gif",
@@ -9,12 +9,10 @@
     "static/media/animation4.gif": "/Portfolio_Parichay/static/media/animation4.666336cfb52a3e29f1c6.gif",
     "static/media/ciscoImg (25).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (25).a703891b8a9b9670c536.jpeg",
     "static/media/ciscoImg (10).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (10).2131a019e02dd76a59d9.jpeg",
-    "static/media/ciscoImg (22).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (22).f26b8644d67e7e9ec759.jpeg",
     "static/media/ciscoImg (26).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (26).fa94ddd9ad484f4e7df5.jpeg",
     "static/media/ciscoImg (28).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (28).269bc99512bfba917ab1.jpeg",
     "static/media/ciscoImg (15).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (15).ecceabadfdc94280f250.jpeg",
     "static/media/ciscoImg (5).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (5).84df26ed085bb86b682b.jpeg",
-    "static/media/ciscoImg (23).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (23).575fd4e5288225b6f133.jpeg",
     "static/media/mouseDown.gif": "/Portfolio_Parichay/static/media/mouseDown.18678b8473501cfa7294.gif",
     "static/media/ciscoImg (7).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (7).15576bcf3d878cbfc14d.jpeg",
     "static/media/ciscoImg (20).jpeg": "/Portfolio_Parichay/static/media/ciscoImg (20).54e0d49a3d49639c04fe.jpeg",
@@ -41,11 +39,11 @@
     "static/media/arrow.png": "/Portfolio_Parichay/static/media/arrow.ad1d9c28af76f25e4d47.png",
     "index.html": "/Portfolio_Parichay/index.html",
     "main.fca2f3f7.css.map": "/Portfolio_Parichay/static/css/main.fca2f3f7.css.map",
-    "main.054836f0.js.map": "/Portfolio_Parichay/static/js/main.054836f0.js.map",
+    "main.f6d3fa0a.js.map": "/Portfolio_Parichay/static/js/main.f6d3fa0a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_Parichay/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fca2f3f7.css",
-    "static/js/main.054836f0.js"
+    "static/js/main.f6d3fa0a.js"
   ]
 }
